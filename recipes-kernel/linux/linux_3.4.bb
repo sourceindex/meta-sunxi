@@ -7,11 +7,11 @@ COMPATIBLE_MACHINE = "(mele|meleg|olinuxino-a13|olinuxino-a10s|olinuxino-a10|oli
 PV = "3.4.90"
 PR = "r1"
 # Last tested version by myself
-SRCREV_pn-${PN} = "e37d760b363888f3a65cd6455c99a75cac70a7b8"
+SRCREV_pn-${PN} = "5654ddaace95095eede11261548595c6a5737e8d"
 
 MACHINE_KERNEL_PR_append = "a"
 
-SRC_URI += "git://github.com/linux-sunxi/linux-sunxi.git;branch=sunxi-3.4;protocol=git \
+SRC_URI += "git://github.com/sourceindex/linux-sunxi.git;branch=sunxi-3.4;protocol=git \
         http://archlinuxarm.org/builder/src/0001-cgroup-add-xattr-support-sunxi.patch;name=cgroup-patch \
         file://defconfig \
         "
